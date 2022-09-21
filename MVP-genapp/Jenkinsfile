@@ -28,7 +28,7 @@ def dbbHome='/var/dbb'
 def dbbUrl='https://mvpserver1.fyre.ibm.com:9443/dbb'
 //def dbbHlq='RLAM'
 def dbbHlq='PROY'
-def dbbBuildType='-f'
+def dbbBuildType='-i'
 def dbbGroovyzOpts= '-Dlog4j.configurationFile=/var/dbb/conf/log4j2.properties'
 // def dbbGroovyzOpts= '-DBB_PERSONAL_DAEMON -Dlog4j.configurationFile=/var/dbb/conf/log4j2.properties'
 // def dbbGroovyzOpts= '-Dlog4j.configurationFile=/var/dbb/conf/log4j2.properties -Djavax.net.debug=ssl,handshake:verbose -Djdk.tls.client.protocols=TLSv1.2 -Dcom.ibm.jsse2.overrideDefaultTLS=true -Dcom.ibm.jsse2.overrideDefaultProtocol=TLSv1.2 '
@@ -320,7 +320,9 @@ EXTREPO.url=${artiUrl}
                                 echo " Start dbb-ucd-packaging.groovy "
  // password not encrypted, use my own
                          //       sh "cp $HOME/Jenkins-Cloud/workspace/artifactory.properties ${WORKSPACE}/BUILD-${BUILD_NUMBER}/artifactoy.properties"
-                                sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop ${WORKSPACE}/BUILD-${BUILD_NUMBER}/artifactoy.properties"
+                         //       sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop ${WORKSPACE}/BUILD-${BUILD_NUMBER}/artifactoy.properties"
+                                  sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop /u/proy/jenkins/agent/e2e-pipeline/workspace/Priya_pipeline@2/BUILD-26/artifactoy.properties"
+
                             }
                         }
                     }
