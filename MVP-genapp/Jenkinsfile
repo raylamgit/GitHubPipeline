@@ -320,8 +320,8 @@ EXTREPO.url=${artiUrl}
                                 echo " Start dbb-ucd-packaging.groovy "
  // password not encrypted, use my own
                          //       sh "cp $HOME/Jenkins-Cloud/workspace/artifactory.properties ${WORKSPACE}/BUILD-${BUILD_NUMBER}/artifactoy.properties"
-                         //       sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop ${WORKSPACE}/BUILD-${BUILD_NUMBER}/artifactoy.properties"
-                                sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop /u/rlam/Jenkins-Cloud/workspace/GenappPipeline/BUILD-184/artifactoy.properties"
+                                  sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop ${WORKSPACE}/BUILD-${BUILD_NUMBER}/artifactoy.properties"
+                         //       sh "$dbbHome/bin/groovyz $dbbGroovyzOpts ${WORKSPACE}/dbb-new/Pipeline/CreateUCDComponentVersion/dbb-ucd-packaging.groovy --buztool ${ucdBuztool} --component ${ucdComponent} --workDir ${WORKSPACE}/BUILD-${BUILD_NUMBER}/${BUILD_OUTPUT_FOLDER} -prop /u/rlam/Jenkins-Cloud/workspace/GenappPipeline/BUILD-184/artifactoy.properties"
 
                             }
                         }
