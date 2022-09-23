@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 09/21 12:16PM                                        *
+      *   ray lam 9/23 11:45Am recyvle e2e agaent                      *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
