@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 9/23 11:45Am recyvle e2e agaent                      *
+      *   ray lam 9/27 10:29AM APIKEY                                  *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
