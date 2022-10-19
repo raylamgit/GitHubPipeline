@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 10/19 /vardbb version 1.1.3                          *
+      *   ray lam 10/19 /vardbb version 1.1.3      dataset             *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
