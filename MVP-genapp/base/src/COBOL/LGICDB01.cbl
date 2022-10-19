@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 10/19 10:37am remoive codereview                     *
+      *   ray lam 10/19 10:55am remoive codereview                     *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
