@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 10/19 version 1.1.3  renamed to GitHubPipeline       *
+      *   ray lam 10/19 version 1.1.3  workspace @2                    *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
