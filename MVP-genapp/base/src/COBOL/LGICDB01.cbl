@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 9/27 10:29AM APIKEY                                  *
+      *   ray lam 10/19 10:29am Testing                                *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
