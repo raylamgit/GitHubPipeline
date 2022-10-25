@@ -18,7 +18,7 @@
       * Select customer details from DB2 table                         *
       *                                                                *
       *                                                                *
-      *   ray lam 10/19 version 1.1.3  workspace @2                    *
+      *   ray lam 10/25 version 1.1.3  workspace @2                    *
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. LGICDB01.
